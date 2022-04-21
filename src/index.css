@@ -29,6 +29,6 @@ h6 {
 }
 
 .App > div {
-  display: inline-block;
-  margin-right: 24px;
+  /* display: inline-block; */
+  /* margin-right: 24px; */
 }

@@ -4,8 +4,13 @@ import Data from "./components/Tile/Data.json";
 export default function App() {
   return (
     <div className="App">
-      {Object.keys(Data).map((item: string) => {
-        return <Tile key={Data[item]} {...Data[item]} />;
+      <h1>Test Application</h1>
+      {[...Object.keys(Data)].map((item: string) => {
+        return (
+          <>
+            <Tile key={Data[item].name} location={Data[item].location} />
+          </>
+        );
       })}
     </div>
   );

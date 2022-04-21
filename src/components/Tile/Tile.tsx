@@ -11,10 +11,10 @@ import {
   TileLabel,
   TileValue,
 } from "./Tile.styles";
-import { IEventTile } from "./Tile.types";
+// import { IEventTile } from "./Tile.types";
 
-export interface EventTileProps extends IEventTile {
-  onClick: (conference: EventTileProps) => void;
+export interface EventTileProps {
+  onClick?: (conference: EventTileProps) => void;
   primaryColor?: string;
 }
 
@@ -24,11 +24,11 @@ const EventTile: React.FC<EventTileProps> = ({
   location,
   name,
   // eslint-disable-next-line @typescript-eslint/no-empty-function
-  onClick,
+  onClick = () => {},
   primaryColor,
   slug,
   startDate,
-}) => {
+}: EventTileProps) => {
   const dateNow = moment();
   const daysToGo = (): number => {
     const eventDate = moment(startDate);
