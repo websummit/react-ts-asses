@@ -1,0 +1,48 @@
+{
+  "toronto": {
+    "address_long": null,
+    "location": "Toronto, Canada",
+    "country_code": "IE",
+    "country_name": "Ireland",
+    "description": "Testing fast as ever",
+    "display_name": "Test 2021",
+    "endDate": "2010-04-22",
+    "id": "aaaabbbb-cccc-eeee-dddd-dededededede",
+    "name": "Test 2019 Online",
+    "slug": "test19",
+    "startDate": "2019-04-20",
+    "timezone": "America/New_York",
+    "timezone_name": "Eastern Time (US & Canada)"
+  },
+  "dublin": {
+    "address_long": null,
+    "location": "Dublin, Ireland",
+    "country_code": "IE",
+    "country_name": "Ireland",
+    "description": "Local rocks",
+    "display_name": "Local 2021",
+    "endDate": "2021-04-22",
+    "id": "aaaabbbb-cccc-ffff-dddd-didididididi",
+    "name": "Local Conference 2021",
+    "slug": "ls21",
+    "startDate": "2021-04-20",
+    "timezone": "Europe/Lisbon",
+    "timezone_name": "Lisbon"
+  },
+
+  "montreal": {
+    "address_long": null,
+    "location": "Toronto, Canada",
+    "country_code": "IE",
+    "country_name": "Ireland",
+    "description": "Testing fast as ever",
+    "display_name": "Test 2021",
+    "endDate": "2010-04-22",
+    "id": "aaaabbbb-cccc-eeee-dddd-dedededededee",
+    "name": "Test 2019 Online",
+    "slug": "test19",
+    "startDate": "2019-04-20",
+    "timezone": "America/New_York",
+    "timezone_name": "Eastern Time (US & Canada)"
+  }
+}
