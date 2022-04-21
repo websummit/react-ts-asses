@@ -20,5 +20,8 @@
     "react": {
       "version": "18.0.0"
     }
+  },
+  "rules": {
+    "react/prop-types": "off"
   }
 }

@@ -1,4 +1,3 @@
-import React from "react";
 import Tile from "./components/Tile/Tile";
 import Data from "./components/Tile/Data.json";
 

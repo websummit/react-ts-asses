@@ -1,9 +1,10 @@
 import type { UserConfigFn, UserConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import eslintPlugin from "vite-plugin-eslint";
 
 const defineConfig: UserConfigFn = ({ command, mode }) => {
   const config: UserConfig = {
-    plugins: [react()],
+    plugins: [eslintPlugin(), react()],
     build: {
       rollupOptions: {
         output: {

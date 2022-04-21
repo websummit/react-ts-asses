@@ -14,7 +14,7 @@ import {
 import { IEventTile } from "./Tile.types";
 
 export interface EventTileProps extends IEventTile {
-  onClick?: (conference: EventTileProps) => void;
+  onClick: (conference: EventTileProps) => void;
   primaryColor?: string;
 }
 
@@ -24,7 +24,7 @@ const EventTile: React.FC<EventTileProps> = ({
   location,
   name,
   // eslint-disable-next-line @typescript-eslint/no-empty-function
-  onClick = () => {},
+  onClick,
   primaryColor,
   slug,
   startDate,
