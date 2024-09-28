@@ -1532,9 +1532,9 @@ escape-string-regexp@^4.0.0:
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
 eslint-config-alloy@^4.5.1:
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-alloy/-/eslint-config-alloy-4.5.1.tgz#b93688102b76deb863824351fa861941f74dd826"
-  integrity sha512-rdHaoAyOf4scccQX3bxqmUa85+cvyhPvijqobsZT+Cdt0HGAbhGby3lghmotGOYHACRTtn7gs+oM5pnnmPkXyw==
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-alloy/-/eslint-config-alloy-4.9.0.tgz#44ed777e8eb0ee595baabeb5d6cb568c2e6461c2"
+  integrity sha512-4DfiN0sXByf5WuXioZrrZJdfzZw+lgdoQfFTuQyFenJ2XeIKrsXYctArLiZAoAsTxyZnmUFYqrgwUIXx26q0gg==
 
 eslint-config-prettier@8.5.0:
   version "8.5.0"
