@@ -1536,10 +1536,10 @@ eslint-config-alloy@^4.5.1:
   resolved "https://registry.yarnpkg.com/eslint-config-alloy/-/eslint-config-alloy-4.5.1.tgz#b93688102b76deb863824351fa861941f74dd826"
   integrity sha512-rdHaoAyOf4scccQX3bxqmUa85+cvyhPvijqobsZT+Cdt0HGAbhGby3lghmotGOYHACRTtn7gs+oM5pnnmPkXyw==
 
-eslint-config-prettier@8.5.0:
-  version "8.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.5.0.tgz#5a81680ec934beca02c7b1a61cf8ca34b66feab1"
-  integrity sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==
+eslint-config-prettier@8.10.2:
+  version "8.10.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.10.2.tgz#0642e53625ebc62c31c24726b0f050df6bd97a2e"
+  integrity sha512-/IGJ6+Dka158JnP5n5YFMOszjDWrXggGz1LaK/guZq9vZTmniaKlHcsscvkAhn9y4U+BU3JuUdYvtAMcv30y4A==
 
 eslint-plugin-prettier@4.0.0:
   version "4.0.0"
